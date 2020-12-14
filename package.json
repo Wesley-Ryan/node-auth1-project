@@ -1,0 +1,32 @@
+{
+  "name": "node-auth1-project",
+  "version": "1.0.0",
+  "description": "## Introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wesley-Ryan/node-auth1-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wesley-Ryan/node-auth1-project/issues"
+  },
+  "homepage": "https://github.com/Wesley-Ryan/node-auth1-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "knex": "^0.21.13",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  }
+}
